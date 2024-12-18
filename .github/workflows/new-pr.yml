@@ -8,7 +8,7 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     env:
-      API_URL: "https://ctf.catch-the-frog.com"
+      API_URL: "https://ctf.catch-the-frog.com/login"
     
     steps:
     - name: Checkout code
